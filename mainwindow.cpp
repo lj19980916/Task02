@@ -10,6 +10,10 @@ MainWindow::MainWindow(QWidget *parent)
 	ui->gb_NonAdjudicial->setStyleSheet("QGroupBox{border:none}");
 	ui->gb_EnergyEquations->setStyleSheet("QGroupBox{border:none}");
 	ui->gb_open->setStyleSheet("QGroupBox{border:none}");
+	ui->groupBox->setStyleSheet("QGroupBox{border:none}");
+	ui->groupBox_3->setStyleSheet("QGroupBox{border:none}");
+	ui->groupBox_5->setStyleSheet("QGroupBox{border:none}");
+	ui->groupBox_7->setStyleSheet("QGroupBox{border:none}");
 	ui->rbtn_steady->setChecked(true);
 	ui->rbtn_no->setChecked(true);
 	ui->rbtn_close->setChecked(true);
